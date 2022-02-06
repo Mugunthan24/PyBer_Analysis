@@ -14,20 +14,25 @@ The visualizations created help explain the relationship between the type of cit
 The subsequent paragraphs will elaborate upon what information can be gathered from the 6 visualizations.
 
 ![image_name](https://github.com/Mugunthan24/PyBer_Analysis/blob/main/analysis/Fig1.png)
+
 The scatterplot above plots the relationship between Total Number of Rides (Per City) vs. Average Fare ($). The size of each dot correlates with the driver count per city. Based on the graph, it is clear that on average, those living in rural areas pay higher fare prices than those living in suburban and urban type cities. This may be because the less rides in a city, the higher the average fare price is. 
 
 Another key piece of information to note is that the dots in the rural cities are usually a lot smaller than those in the Suburban and Urban cities. The reason for higher fare price can also be because rural cities have fewer drivers available, while urban cities appear to be abundant with drivers. Suburban cities have about 6.3x as many drivers compared to rural cities, while urban cities have 30.8x more.
 
 ![image_name](https://github.com/Mugunthan24/PyBer_Analysis/blob/main/analysis/Fig2.png)
+
 The median or 50th percentile number of drivers in urban communities is 24, around 17 in suburban, and lastly 6 in rural. There appears to be an outlier in the number of rides in urban communities where the number of rides is 39. For urban cities, the mean and median are roughly the same, and almost always, urban cities have more drivers than rural cities. 
 
 ![image_name](https://github.com/Mugunthan24/PyBer_Analysis/blob/main/analysis/Fig3.png)
+
 The pie graph above shows the percentage of total fares by city type. Urban city types contribute to 62.7% of the fare, suburban cities contribute to 30.5% of the fare, while rural cities contribute the remaining 6.8%. Something important to note is that even though the rural communities on average pay higher fare prices (Rural: $34.62, Suburban: $30.97, Urban: $24.53), they contribute the lowest to the percentage of total fare because they have significantly less rides. Suburban cities relative to rural cities have 5x as many rides, while in urban cities it is 13x. 
 
 ![image_name](https://github.com/Mugunthan24/PyBer_Analysis/blob/main/analysis/Fig4.png)
+
 The pie graph above shows the percentage of Total Rides by City Type. Urban has the highest percent with 68.4%, suburban cities contribute to 26.3% of total rides, while rural cities contribute 5.3%. The percentage of total rides per city type is likely influenced by population size, where cities with higher populations like urban cities will likely have more rides whereas rural cities with lower populations will have less rides.
 
 ![image_name](https://github.com/Mugunthan24/PyBer_Analysis/blob/main/analysis/Fig5.png)
+
 Urban cities have the most drivers with 80.9%. Suburban and rural cities have significantly less with the percentage of drivers being 16.5% in suburban and 2.6% in rural. Just like with the percentage of total rides, the number of drivers in each city is likely correlated to its population. Rural communities have a lower population than suburban and urban communities so it will have a lower amount of drivers. Urban cities are heavily populated so those cities will be abundant with drivers.
 
 ![image_name](https://github.com/Mugunthan24/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
